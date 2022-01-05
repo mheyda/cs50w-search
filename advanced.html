@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class=navigation-container>
+            <a class=navigation-button href="index.html">Search</a>
+            <a class=navigation-button href="images.html">Images</a>
+            <a class=navigation-button href="advanced.html">Advanced</a>
+        </div>
+        
+        <div class=body-container>
+            
+            <div class=advanced-search-form-container>
+                <img class="logo" id="advanced-search-logo" src="moogle.jpg" alt="Moogle">
+                <p id="advanced-search-title">Advanced Search</p>
+                <form class=advanced-search-form action="https://google.com/search">
+                    
+                    <div class="advanced-search-header">
+                        Find pages with...
+                    </div>
+                    <div class="advanced-search-line">
+                        <label>all these words: </label>
+                        <input class=advanced-search-form-element id=advanced-search-bar type="text" name="q">
+                    </div>
+                    <div class="advanced-search-line">
+                        <label>this exact word or phrase: </label>
+                        <input class=advanced-search-form-element id=advanced-search-bar type="text" name="as_epq">
+                    </div>                    
+                    <div class="advanced-search-line">
+                        <label>any of these words: </label>
+                        <input class=advanced-search-form-element id=advanced-search-bar type="text" name="as_oq">
+                    </div>
+                    <div class="advanced-search-line">
+                        <label>none of these words: </label>
+                        <input class=advanced-search-form-element id=advanced-search-bar type="text" name="as_eq">
+                    </div>
+                    <div class="advanced-search-line">
+                        <input class=search-form-element id=advanced-search-button type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
