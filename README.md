@@ -9,5 +9,5 @@ Functionality includes:
 </ul>
 <p>Completed as part of Harvard CS50w.</p>
 
-### See it in action <a href="https://mheyda-cs50w-search.netlify.app/" target="_blank"><ins>here</ins></a>.
+### See it in action <a href="https://mheyda-cs50w-search.netlify.app/" target="_blank"><ins>here</ins></a>. :smile:
 
